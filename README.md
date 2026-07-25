@@ -1,4 +1,4 @@
-Fronteira Eficiente, Carteira Tangente e CAPM - B3 (2022-2024)
+Fronteira Eficiente, Carteira Tangente e CAPM — B3 (2022-2024)
 ================
 2026-07-24
 
@@ -32,12 +32,6 @@ library(quantmod)
     ## Warning: pacote 'zoo' foi compilado no R versão 4.5.3
 
     ## Warning: pacote 'TTR' foi compilado no R versão 4.5.3
-
-``` r
-library(yfR)
-```
-
-    ## Warning: pacote 'yfR' foi compilado no R versão 4.5.3
 
 ``` r
 library(xts)
