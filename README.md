@@ -4,6 +4,10 @@ Fronteira Eficiente, Carteira Tangente e CAPM - B3 (2022-2024)
 
 ## Introdução
 
+Projeto de ciência de dados aplicado ao mercado financeiro, cobrindo coleta
+de dados via API, análise exploratória, modelagem estatística (regressão) e
+visualização de dados.
+
 Este relatório baixa cotações de cinco ativos negociados na B3, calcula
 estatísticas descritivas, monta a fronteira média-variância por
 simulação de Monte Carlo, encontra a carteira tangente (analítica) e a
