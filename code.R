@@ -1,5 +1,4 @@
 library(quantmod)
-library(yfR)
 library(xts)
 library(tidyverse)
 library(corrplot)
@@ -329,4 +328,3 @@ ggcorrplot(cor_matrix, method = "square", type = "full", lab = TRUE,
            colors = c("blue", "white", "#00E5FF"),
            title = "Matriz de Correlação dos Retornos",
            ggtheme = ggplot2::theme_minimal())
-
