@@ -16,7 +16,7 @@ library(jsonlite)
 data_inicio <- "2022-01-01"
 data_fim <- "2024-12-31"
 
-getSymbols("CYRE3.SA", from = data_inicio, to = data_fim)  # CYRE
+getSymbols("CYRE3.SA", from = data_inicio, to = data_fim)  # Cyrela
 getSymbols("BEEF3.SA", from = data_inicio, to = data_fim)  # BEEF
 getSymbols("PETR4.SA", from = data_inicio, to = data_fim)  # Petrobras
 getSymbols("ITUB3.SA", from = data_inicio, to = data_fim)  # Itaú
