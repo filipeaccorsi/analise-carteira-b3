@@ -129,9 +129,9 @@ estat_retorno <- data.frame(
   EMBJ3 = estatisticas(as.numeric(ret_EMBJ))
 )
 
-print("Estatísticas Descritivas - Preços Ajustados (2024, Frequência Diária)")
+print("Estatísticas Descritivas - Preços Ajustados (2022-2024, Frequência Diária)")
 print(estat_preco)
-print("Estatísticas Descritivas - Retornos Diários (2024, Frequência Diária)")
+print("Estatísticas Descritivas - Retornos Diários (2022-2024, Frequência Diária)")
 print(estat_retorno)
 
 # ---------------------------------------------------------------------------
@@ -230,7 +230,7 @@ ret_carteira_tangente <- xts(
 # Passo 2: simulação de portfólios (fronteira média-variância)
 # ---------------------------------------------------------------------------
 n_sim <- 30000
-set.seed(99)
+set.seed(42)
 pesos <- matrix(runif(n_sim * 5), ncol = 5)
 pesos <- pesos / rowSums(pesos)  # Normalizar para somar 1
 
